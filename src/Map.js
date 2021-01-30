@@ -10,11 +10,11 @@ const App = () => {
   return (
     <>
     <div className="cv-app">
-    <Grid m={2} container spacing={3} style={{height:'100vh', width: '90%'}}>
-      <Grid item lg={8} style={{backgroundColor:'gray'}}>
+    <Grid m={1} container spacing={2} style={{height:'100vh', width: '90%'}}>
+      <Grid item lg={9}  md={9} sm={12}>
         <Paper/>
       </Grid>
-      <Grid item lg={4}>
+      <Grid item lg={3} md={3} sm={12}>
         <Header/>
       </Grid>
     </Grid>

@@ -1,0 +1,12 @@
+.resume{
+    display: grid;
+    grid-template-areas:
+    'heading   info'
+    ;
+}
+.heading{
+    grid-area: heading;
+}
+.info{
+    grid-area: info;
+}
