@@ -29,24 +29,30 @@ ul{
 }
 hr{
     margin: 20px;
-    border: 0.7px solid black
+    border: 0.7px solid rebeccapurple
 
+}
+.hr{
+    padding-bottom: 10px;
 }
 .box{
     padding-bottom: 1em;
+    
+
    
 }
 Input{
     text-align: center;
 }
 .role{
-    color:crimson
+    color:rebeccapurple
 }
 .about{
     text-align: center;
+    text-transform: capitalize;
 }
 .about-text{
-    font-size: 20px;
+    font-size: 17px;
 }
 .experience{
     text-align: center;
@@ -57,4 +63,23 @@ Input{
 }
 .education{
     text-align: center;
+}
+.skill-ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skill-li{
+    margin: 0px 20px;
+    padding: 10px;
+    background-color: rebeccapurple;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    letter-spacing: 1.3px;
+    text-transform: capitalize;
+}
+.cap{
+    text-transform: capitalize;
+    font-size: 13px;
 }
