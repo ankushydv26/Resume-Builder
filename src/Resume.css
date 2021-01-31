@@ -1,0 +1,42 @@
+.root{
+    margin: 10px;
+}
+
+.header{
+    padding: 1.4em;
+    text-align: center;
+    
+}
+h1{
+    margin: 0px;
+    text-transform: capitalize;
+}
+.name{
+    font-size: 50px;
+    
+    
+}
+p{
+    text-transform: capitalize;
+}
+ul{
+    list-style:none;
+    margin: 0px;
+}
+hr{
+    margin: 0px;
+    border: 0.7px solid black
+
+}
+.box{
+    padding-bottom: 1em;
+}
+.role{
+    color:crimson
+}
+.about{
+    text-align: center;
+}
+.about-text{
+    font-size: 20px;
+}
