@@ -16,6 +16,10 @@ h1{
     
     
 }
+.head{
+    color: rebeccapurple;
+
+}
 p{
     text-transform: capitalize;
 }
@@ -24,12 +28,16 @@ ul{
     margin: 0px;
 }
 hr{
-    margin: 0px;
+    margin: 20px;
     border: 0.7px solid black
 
 }
 .box{
     padding-bottom: 1em;
+   
+}
+Input{
+    text-align: center;
 }
 .role{
     color:crimson
@@ -39,4 +47,14 @@ hr{
 }
 .about-text{
     font-size: 20px;
+}
+.experience{
+    text-align: center;
+}
+.skills{
+    text-align: center;
+
+}
+.education{
+    text-align: center;
 }

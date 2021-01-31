@@ -29,10 +29,27 @@ class Resume extends Component {
                        <h1>About Me</h1>
                        <pre className="about-text"> {about} </pre>
                    </div>
-                   {/* <div className="exp">
-                       <h1>Exp</h1>
+                   <div className="hr">
+                        <hr/>
+                    </div>
+                    <div className="skills">
+                        <h1>Skills</h1>
 
-                   </div> */}
+                    </div>
+                    <div className="hr">
+                        <hr/>
+                    </div>
+                   <div className="experience">
+                       <h1>experience</h1>
+
+                   </div>
+                   <div className="hr">
+                        <hr/>
+                    </div>
+                    <div className="education">
+                        <h1>Education</h1>
+                    </div>
+                    
                 </Paper>
             </div>
         )
